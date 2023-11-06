@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Playpen+Sans&display=swap');
+
+html {
+  background: radial-gradient(blue, green, orange, red)
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  font-family: Impact;
+}
+
+#image-de-con {
+  align-self: center;
+  width: 2000px;
+  height: 400px;
+}
+
+.pourquoi {
+  font-size: 100px;
+  text-align: center;
+  background: linear-gradient(blue, yellow);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 2px black;
+}
+
+#header-text {
+  margin: -50px;
+  text-align: center;
+  text-shadow: 0px 0px 10px radial-gradient(blue, green, orange, red);
+}
+
+.caca {
+  margin-top: -150px;
+}
+
+h1 {
+  font-family: 'Playpen Sans';
+}
+
+.zoom {
+  position: absolute;
+  animation: zoom-in 45s infinite;
+  /*animation-direction:*/
+}
+
+#gros-tarpe {
+  position: absolute;
+}
+
+@keyframes zoom-in {
+  0% {
+    width: 975px;
+    height: 727px;
+  }
+
+  100% {
+    width: 4000px;
+    height: 3000px;
+    transform: translateY(-1600px) translateX(-900PX);
+  }
+}
+
+
